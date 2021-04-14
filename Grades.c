@@ -24,5 +24,9 @@ else if (marks>=0 && marks<40)
 {
 printf("grade f");
 }
+else
+{
+printf("invalid entry");
+}
 return 0;
 }
