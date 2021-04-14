@@ -1,10 +1,10 @@
-#include<studio.h>
+#include<stdio.h>
 main()
 {
 int marks;
 printf("enter marks:");
-scand("%d",&marks);
-if(marks>=85 && marks=100)
+scanf("%d",&marks);
+if(marks>=85 && marks<=100)
 {
 printf("grade A");
 }
