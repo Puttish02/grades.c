@@ -4,7 +4,7 @@ main()
 int marks;
 printf("enter marks:");
 scand("%d",&marks);
-if(marks>=85)
+if(marks>=85 && marks=100)
 {
 printf("grade A");
 }
